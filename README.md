@@ -1,3 +1,14 @@
+## **Note on GitHub Alerts:**
+This repository may trigger alerts or warnings on GitHub 
+(e.g., RuntimeWarning: All-NaN slice encountered) 
+during automated workflows or static analysis tools. 
+These warnings occur because stricter testing environments 
+like GitHub Actions flag potential issues (e.g., operations on NaN-only slices) 
+that do not halt execution in environments like Google Colab. 
+While these warnings do not cause errors during execution, 
+they serve as reminders to handle edge cases like NaN values 
+or zero variance columns in datasets.
+
 
 # **Project: Clustering and Audio Feature Analysis**
 
